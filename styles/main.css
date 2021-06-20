@@ -20,6 +20,29 @@
   color: #f4f5f8;
 }
 
+.hero-section {
+  background-color: #00000000;
+  height: calc(100vh - 290px);
+  padding-top: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.hero-section .hero-text {
+  color: #f4f5f8;
+  margin-left: 100px;
+}
+
+.hero-section .hero-image {
+  max-width: 600px;
+  max-height: 600px;
+  margin-left: -200px;
+}
+
 * {
   font-family: 'Ubuntu', sans-serif;
   margin: 0px;

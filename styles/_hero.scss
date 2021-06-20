@@ -1,0 +1,22 @@
+@import 'colors';
+
+.hero-section {
+  background-color: $transparent;
+  height: calc(100vh - 290px);
+  padding-top: 200px;
+  display: flex;
+  justify-content: space-evenly;
+
+  //Text
+  .hero-text {
+    color: $light;
+    margin-left: 100px;
+  }
+
+  //Image
+  .hero-image {
+    max-width: 600px;
+    max-height: 600px;
+    margin-left: -200px;
+  }
+}
