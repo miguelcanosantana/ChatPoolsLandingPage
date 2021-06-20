@@ -1,0 +1,37 @@
+.transparent-nav {
+  background-color: #00000000;
+  height: 60px;
+  padding-top: 30px;
+  z-index: 99;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.transparent-nav ion-icon {
+  color: #f4f5f8;
+}
+
+.transparent-nav a {
+  margin-top: 6px;
+  text-decoration: none;
+  color: #f4f5f8;
+}
+
+* {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: #002772;
+  background: -webkit-gradient(linear, left top, left bottom, from(#002873), to(#2761d1));
+  background: linear-gradient(180deg, #002873 0%, #2761d1 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #f4f5f8;
+}
+/*# sourceMappingURL=main.css.map */

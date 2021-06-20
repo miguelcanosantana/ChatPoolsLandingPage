@@ -1,0 +1,16 @@
+@import 'colors';
+@import 'navbar';
+
+* {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: $primary;
+  background: $background-gradient; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: $light;
+}
