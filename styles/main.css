@@ -43,6 +43,12 @@
   margin-left: -200px;
 }
 
+.particles {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+}
+
 * {
   font-family: 'Ubuntu', sans-serif;
   margin: 0px;
