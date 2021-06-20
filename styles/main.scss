@@ -2,6 +2,8 @@
 @import 'navbar';
 @import 'hero';
 @import 'particles';
+@import 'appInfo';
+@import 'about';
 
 * {
   font-family: 'Ubuntu', sans-serif;
@@ -15,4 +17,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: $light;
+}
+
+html {
+  scroll-behavior: smooth;
 }

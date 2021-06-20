@@ -19,3 +19,10 @@ window.onload = function() {
   });
 
 };
+
+//Play random sound
+function play() {
+  let ran = Math.floor(Math.random() * (4 - 1)) + 1;
+  var audio = document.getElementById("audio" + ran);
+  audio.play();
+}

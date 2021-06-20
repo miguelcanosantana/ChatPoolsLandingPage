@@ -11,4 +11,4 @@ $light: #f4f5f8;
 $transparent: #00000000;
 
 //Gradients
-$background-gradient: linear-gradient(180deg, rgba(0,40,115,1) 0%, rgba(39,97,209,1) 100%);
+$background-gradient: linear-gradient(180deg, $primary 0%, $secondary 100%);

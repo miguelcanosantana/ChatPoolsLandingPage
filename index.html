@@ -8,20 +8,20 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles/main.css">
+  <link rel="shortcut icon" href="./images/logo-no-background.svg"/>
 </head>
 <body>
 
   <!-- Transparent NavBar -->
-  <nav class="transparent-nav">
+  <nav id="start" class="transparent-nav">
 
-    <ion-icon size="large" name="menu"></ion-icon>
+    <div class="nav-space"></div>
 
-    <a href="">Start</a>
-    <a href="">App Info</a>
-    <a href="">Technologies Used</a>
-    <a href="">About Me</a>
+    <a href="#start">Start</a>
+    <a href="#info">App Info</a>
+    <a href="#about">About</a>
     
-    <div></div>
+    <div class="nav-space"></div>
 
   </nav>
 
@@ -39,6 +39,70 @@
 
   <!-- Particles canvas (inside hero section) -->
   <canvas class="particles"></canvas>
+
+  <!-- App Info -->
+  <div class="app-info">
+
+    <div class="video-wrap">
+      <iframe class="video" src="https://www.youtube.com/embed/f56JraMWI8Y?controls=0&modestbranding=1&showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <p id="info" class="description">
+      ChatPools is an Open Source chat client focused on it's community. <br><br>
+      The main goal of ChatPools is to allow to it's users to make "Pools" (Chat rooms) <br>
+      based on their interest for communicating with people with the same interests.
+    </p>
+
+    <p class="features-title">Features</p>
+
+    <div class="features-1">
+
+      <img src="./images/pools.png" alt="Image">
+      <p>Simple and Intuitive search bar</p>
+
+    </div>
+
+    <div class="features-2">
+
+      <p>Customize your profile</p>
+      <img src="./images/profile.png" alt="Image">
+
+    </div>
+
+    <div class="features-1">
+
+      <img src="./images/word-filter.png" alt="Image">
+      <p>Be safer with a word filter</p>
+
+    </div>
+
+    <div class="ui-sounds">
+
+      <p>The sounds of the User Interface are random</p>
+      <ion-icon type="button" onclick="play()" name="volume-medium"></ion-icon>
+      <h4>Click for a demo</h4>
+      <audio id="audio1" src="./sounds/pop1.ogg"></audio>
+      <audio id="audio2" src="./sounds/pop2.ogg"></audio>
+      <audio id="audio3" src="./sounds/pop3.ogg"></audio>
+
+    </div>
+
+  </div>
+
+  <!-- About Footer -->
+  <footer id="about">
+
+    <div class="github-repo">
+      <ion-icon name="logo-github"></ion-icon>
+      <a href="https://github.com/miguelcanosantana/ChatPools">Github Repo</a>
+    </div>
+
+    <div class="github-profile">
+      <ion-icon name="person"></ion-icon>
+      <a href="https://github.com/miguelcanosantana">Github Profile</a>
+    </div>
+    
+  </footer>
   
   <!-- Particles Js -->
   <script src="scripts/particles.min.js"></script>
